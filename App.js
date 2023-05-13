@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button, StyleSheet, TextInput, SafeAreaView, Alert, View} from 'react-native';
 
+
 export default function App() {
   const [text, onChangeText] = React.useState('');
   const [number, onChangeNumber] = React.useState('');
